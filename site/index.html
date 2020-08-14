@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, intial-scale=1">
+	<title>index</title>
+	<style>
+		*{
+			box-sizing: border-box;
+		}
+		div{
+				float:left;
+
+			}
+			section{
+				width:100%;
+			}
+		article{
+			
+			margin-left: auto;
+			margin-right: auto;
+			width: 90%;
+		}
+		
+		
+div.box1{
+	background-color: gray;
+	padding:10px;
+	width:100%;
+	position: relative;
+	
+	
+	border:1px solid black;
+	 
+
+}
+div.box2{
+	background-color: gray;
+	padding:10px;
+	width:100%;
+	position: relative;
+	
+	border:1px solid black;
+	
+
+}
+div.box3{
+	background-color: gray;
+	padding:10px;
+	width:100%;
+	position: relative;
+	
+	
+	
+	border:1px solid black;
+	
+
+}
+div.head1{
+position: absolute;
+	border:1px solid black;
+	border-right: 0px;
+	border-top:0px;
+	
+	background-color: pink;
+	top:0;
+	right:0;
+	padding:5px;
+	font-weight: bolder;
+}
+div.head2{
+position: absolute;
+	border:1px solid black;
+	border-right: 0px;
+	border-top:0px;
+	
+	background-color: red;
+	top:0;
+	right:0;
+	padding:5px 18px 5px 18px;
+	font-weight: bolder;
+}
+div.head3{
+position: absolute;
+	border:1px solid black;
+	border-right: 0px;
+	border-top:0px;
+	
+	background-color: gold;
+	top:0;
+	right:0;
+	padding:5px 18px 5px 18px;
+	font-weight: bolder;
+}
+
+
+h1{
+	text-align: center;
+	margin-bottom: 40px;
+}
+@media (min-width: 992px) {
+	.lg1,.lg2,.lg3 {
+		float: left;
+		
+
+	}
+		.lg1{
+			width:33.33%;
+			
+		}
+		.lg2{
+			width:33.33%;
+			 
+		}
+		.lg3{
+			width:33.33%;
+		}
+
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+	.md1,.md2,.md3{
+		float:left;
+		
+		
+	}
+	.md1{
+		width:50%;
+	}
+	.md2{
+		width:50%;
+	}
+	.md3{
+		width:105%;
+		margin-top: 25px;
+		margin-left: -20px;
+
+		
+	}
+
+}
+@media(max-width: 767px){
+	.sm1,.sm2,.sm3{
+		float:left;
+		
+		
+	}
+	.sm1{
+		width:100%;
+
+	}
+	.sm2{
+		width:100%;
+		margin-top:5px;
+	}
+	.sm3{
+		width:100%;
+		margin-top: 5px;
+		
+
+		
+	}
+}
+
+
+	</style>
+</head>
+<body>
+	<h1>Our Menu</h1>
+<section>
+	
+	<div class="lg1 md1 sm1">
+	<article>
+		<div class="box1">
+	<div class="head1">Chicken</div><br>
+	
+	<div class="innerbox">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. </div></div></article></div>
+	
+	<div class="lg2 md2 sm2">
+		<article>
+	<div class="box2">
+	<div class="head2">Beef</div>
+	<br>
+	<div class="inner">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </div>
+</div></article></div>
+
+<div class="lg3 md3 sm3">
+	<article>
+	<div class="box3">
+	<div class="head3">Sushi</div><br>
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	consequat. 
+</div></article></div>
+</section>
+
+
+</body>
+</html>
